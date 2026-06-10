@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-
+#TRABAJO DE DANIEL QUISPE GUTIERRE
 # Crear base de datos
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///peliculas_de_daniel.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
